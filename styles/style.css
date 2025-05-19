@@ -1,0 +1,87 @@
+/* NAVBAR */
+nav {
+  background-color: #003366;
+  padding: 15px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  background-color: #ffcc00;
+  color: #003366;
+  border-radius: 5px;
+}
+
+/* RESPONSIVE NAV */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+/* GÖRSELLER */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* TABLO */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* FOOTER */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+footer p {
+  margin: 5px;
+}
+
+/* TABLO GENİŞLİK VE STİL */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Responsive için tabloyu saran kutu */
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  }
